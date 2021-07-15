@@ -46,6 +46,8 @@ if schedule is present or not. If the schedule is not empty it first adds the ta
    After that the lambda function invokes itself from the API gateway api and passes the data accordingly to start or shut down an instance.
    See the file lambda.py for more details.
    
+ - The other routes for update, read and delete works directly with DynamoDB.
+   
 ### Run in a docker container:
 
  - Create Dockerfile and docker-compose.yml files
